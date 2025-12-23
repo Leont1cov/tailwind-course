@@ -24,12 +24,12 @@ function App() {
             </div>
 
             {/*Modal window*/}
-            <div className='fixed inset-0 bg-black/30 bacdrop-blur-md flex items-center justify-center'>
-                <div className='flex p-20 top-90 absolute bg-blue-600 text-white rounded-2xl'>
-                    <h1>Modal window</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis illo magnam!</p>
-                </div>
-            </div>
+            {/*<div className='fixed inset-0 bg-black/30 bacdrop-blur-md flex items-center justify-center'>*/}
+            {/*    <div className='flex p-20 top-90 absolute bg-blue-600 text-white rounded-2xl'>*/}
+            {/*        <h1>Modal window</h1>*/}
+            {/*        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis illo magnam!</p>*/}
+            {/*    </div>*/}
+            {/*</div>*/}
         </div>
     </>
   )
