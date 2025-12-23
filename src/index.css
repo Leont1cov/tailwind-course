@@ -26,7 +26,7 @@ a:hover {
 
 body {
     /*Благодаря @apply можно писать классы прямо внутри css файла*/
-    @apply bg-amber-50;
+    /*@apply bg-amber-50;*/
   margin: 0;
   display: flex;
     justify-content: center;

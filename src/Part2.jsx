@@ -15,6 +15,14 @@ export default function Part2 () {
                 transition-colors duration-300 md:bg-blue-600 lg:bg-amber-600 xl:bg-amber-50 2xl:bg-green-400'>
                     ADAPTIVE
                 </div>
+
+                {/*Работа с iframe*/}
+                <div className='perspective-distant'>
+                    <iframe
+                        src='https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4'
+                        className='mt-10 w-full h-full aspect-video transform-3d rotate-z-10 rotate-x-20'
+                    />
+                </div>
             </div>
         </>
     )
