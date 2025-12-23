@@ -7,6 +7,16 @@ function App() {
         <button className="rounded-4xl bg-blue-600 mt-10 p-16 hover:bg-blue-950">Click</button>
 
         <div className='border-2 border-blue-300 border-solid mt-3'></div>
+
+        <div className='flex justify-center gap-40'>
+            <div className='bg-blue-950 w-30 h-30'/>
+            <div className='bg-blue-950 w-30 h-30'/>
+        </div>
+
+        <div className='grid grid-cols-2'>
+            <div className='bg-amber-950 w-30 h-30'/>
+            <div className='bg-amber-950 w-30 h-30'/>
+        </div>
     </>
   )
 }
